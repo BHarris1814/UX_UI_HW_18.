@@ -1,78 +1,37 @@
-/* Target elements with class inline-block */
+
+.header {
+    background-color: #fff6bf;
+    text-align: center;
+    padding: 20px;
+}
 .inline-block {
     display: inline-block;
-    align-content: center;
 }
 .p.b.b {
     font-family: sans-serif;
-    
-  }
-/* Target the div with class logo */
-.logo {
-    width: 50%;
-    padding: 1%;
+
 }
 
-/* Target the HTML nav element */
-nav {
-    width: 73%;
-    padding: 1%;
-    
-}
-.centered-li {
-    text-align: center;
-    display: inline-block;
-    padding-right: 15px;
+.body {
+        background-color: #FFFEEC;
+      }
+
+  .footer-content-right {
+    padding-right:40px;
+    margin-top:20px;
+    float:right;
   }
   
-
-/* Center the unordered list within its container */
-ul {
-    width: 50%;
-    margin-right: auto;
-    padding: 25px
-}
-body {
- 
-    background-color: #FFF6BF;
-/* Center the images inside the logo container */
-.logo img {
-    height: 150px
-    
-}
-/* Target the section with class heroImg */
-.heroImg {
-    height: 50px;
-    padding: 25px;
-}
-
-/* Target the class content */
-.content {
-    width: 500px;
-    margin: 0 auto;
-}
-
-/* Target the base HTML footer element */
-footer {
-    background-color: #86908f;
-    padding: 25px; 
-    
-}
-/* Target the ul nested inside the footer element */
-footer ul {
-    display: inline-flex;
-    
-    padding: 15px; /* Remove default padding */
-
-}
-
-}
-
-/* Style the li elements inside the footer ul */
-footer li {
-    padding: 10px; /* Adjust this value as needed */
-}
-
-
-
-
+  .icon-style {
+    height:40px;
+    margin-left:20px;
+    margin-top:5px;
+  }
+  
+  .icon-style:hover {
+    background-color:yellow;
+    padding:5px;
+  }
+  
+  
+  

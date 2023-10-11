@@ -1,0 +1,74 @@
+/* You can add CSS styles here if needed */
+.mySkills {
+    text-align: center;
+    color: #6A809E;
+    margin-top: 200px;
+    font: size 150px;
+}
+
+/*  Section 3  */
+
+.section-heading {
+  text-align:center;
+  color:#102C4E;
+  margin-top: 150px;
+  margin-bottom:70px;
+  font-size: 35px;
+}
+.column-4 {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    margin:20px;
+    height: 250px;
+  }
+  .project-1 {
+    background: url('../images/project-left.jpeg');
+    background-size: cover;
+  }
+  
+  .project-2 {
+    background-color:white;
+  }
+  
+  .project-3 {
+    background-color:#209BFF;
+  }
+  
+  .project-4 {
+    background-color:#112d4e;
+  }
+  
+  .project-5 {
+    background-color:#F9F7F7;
+  }
+  
+  .project-6 {
+    background-color:#209BFF;
+  }
+  
+  .project-7 {
+      background-color:#ffffff00;
+  }
+  
+  .project-8 {
+    background: url('../images/project-right.jpeg');
+    background-size: cover;
+  }
+  
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flexChild {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+img {
+    max-width: 100px;
+    height: auto;
+}
