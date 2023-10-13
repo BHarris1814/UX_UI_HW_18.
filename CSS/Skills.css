@@ -1,74 +1,84 @@
-/* You can add CSS styles here if needed */
-.mySkills {
-    text-align: center;
-    color: #6A809E;
-    margin-top: 200px;
-    font: size 150px;
-}
+    .section-heading {
+      text-align:center;
+      color:#102C4E;
+      margin-top: 150px;
+      margin-bottom:70px;
+      font-size: 45px;
+    }
+    
+    /* Sizing for Project Containers  */
+    
+    .column-4 {
+      float: left;
+      width: 21%;
+      padding: 10px;
+      margin:20px;
+      height: 325px;
+    }
+    
+   
 
-/*  Section 3  */
+    /* Color and Images for Project Containers  */
+        
+    
+    .project-1 {
+      background:#FFF6BF
+    
+     
+    }
+    
+    .project-2 {
+      background-color:#6A809E;
+    }
+    
+    .project-3 {
+      background: color #86908f;;
+    }
+    
+    .project-4 {
+      background: color #86908f;;
+    }
+    
+    .project-5 {
+      background-color:#6A809E;
+    }
+    
+    .project-6 {
+      background-color:#FFF6BF;
+    }
+    
+    .project-7 {
+        background-color:#FFFEEC;
+    }
+    
+    .project-8 {
+      background-image: 
+      background-size
+    } 
 
-.section-heading {
+.project-text {
   text-align:center;
-  color:#102C4E;
-  margin-top: 150px;
-  margin-bottom:70px;
-  font-size: 35px;
+  font-size:45px;
 }
-.column-4 {
-    float: left;
-    width: 21%;
-    padding: 10px;
-    margin:20px;
-    height: 250px;
-  }
-  .project-1 {
-    background: url('../images/project-left.jpeg');
-    background-size: cover;
+
+.footer-content-right {
+    padding-right:40px;
+    margin-top:20px;
+    float:right;
   }
   
-  .project-2 {
-    background-color:white;
+  .icon-style {
+    height:40px;
+    margin-left:20px;
+    margin-top:5px;
   }
   
-  .project-3 {
-    background-color:#209BFF;
+  .icon-style:hover {
+    background-color:yellow;
+    padding:5px;
   }
   
-  .project-4 {
-    background-color:#112d4e;
-  }
-  
-  .project-5 {
-    background-color:#F9F7F7;
-  }
-  
-  .project-6 {
-    background-color:#209BFF;
-  }
-  
-  .project-7 {
-      background-color:#ffffff00;
-  }
-  
-  .project-8 {
-    background: url('../images/project-right.jpeg');
-    background-size: cover;
-  }
-  
-.flexContainer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.flexChild {
-    flex-basis: calc(33.33% - 20px);
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    text-align: center;
-}
-img {
+  img {
     max-width: 100px;
     height: auto;
 }
